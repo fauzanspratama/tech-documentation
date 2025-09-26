@@ -66,7 +66,7 @@ The `MyEventCard` can also be fully configured and controlled from from your cod
 val myEventCard = findViewById<MyEventCard>(R.id.my_event_card_example)
 
 // Set Text Properties
-myEventCard.eventType = "In-Person Seminar"
+myEventCard.eventType = "Hybrid"
 myEventCard.eventTitle = "Advanced Android Development"
 myEventCard.eventTime = "09:00 - 17:00"
 
