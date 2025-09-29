@@ -8,7 +8,7 @@
 ## Visual Breakdown
 The `MyEventCard` component is composed of several key UI elements organized within a `androidx.constraintlayout.widget.ConstraintLayout`:
 
-1. **`EventCalendarCard` (Left)**: A dedicated custom view on the left side that displays the date of the event, broken down into month, date, and day.
+1. **EventCalendarCard (Left)**: A dedicated custom view on the left side that displays the date of the event, broken down into month, date, and day.
 2. **Event Details (Right)**:
     * **Event Type (`tvEventType`)**: A `MaterialTextView` at the top-left of the details section to specify the type of event (e.g., "Online Event").
     * **Event Badge (`eventCardBadge`)**: A custom `EventCardBadge` view at the top-right, used to display the event's status, such as "Terdaftar".
