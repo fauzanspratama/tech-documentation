@@ -58,7 +58,7 @@ You can customize the `MyEventCard` directly from your XML layout file using the
 > Badge properties (`badgeText`, `badgeType`, `badgeSize`, `myEventBadgeVisible`) are declared in the styleable attributes but are not read in the `MyEventCard`'s `applyStyledAttributes` method. They must be set programmatically using the `setBadgeData()` method.
 
 
-## Programmatic Usage
+## Programmatically Usage
 The `MyEventCard` can also be fully configured and controlled from from your code.
 
 #### Properties and Methods
