@@ -1,9 +1,9 @@
 # My Event Card
 
-
 ## Overview
 `MyEventCard` is a custom Android view component that extends `MaterialCardView`. It is designed to provide a standardized and reusable layout for displaying event information in a clear and concise card format. The component encapsulates the structure for showing an event's date, type, title, time, and a status badge, making it easy to populate event lists within an application.
 
+![My Event Card](https://res.cloudinary.com/fauzanspratama/image/upload/v1759220044/My_Event_Card_jpk3ms.png)
 
 ## Visual Breakdown
 The `MyEventCard` component is composed of several key UI elements organized within a `androidx.constraintlayout.widget.ConstraintLayout`:
@@ -15,14 +15,12 @@ The `MyEventCard` component is composed of several key UI elements organized wit
     * **Event Title (`tvEventTitle`)**: A prominent `MaterialTextView` in the center for the main title of the event. It supports up to two lines and will truncate with an ellipsis if the text is too long.
     * **Event Time (`tvEventTime`)**: A `MaterialTextView` at the bottom, displaying the event's time range.
 
-
 ## Key Features
 * **Encapsulated Design**: Combines multiple views into a single, cohesive component for easy reuse.
 * **XML Configuration**: Allows for static configuration of most text properties directly in your layout XML files.
 * **Programmatic Control**: Offers a simple API to dynamically set event data and badge properties from your Kotlin or Java code.
 * **Click Event Handling**: Utilizes a delegate pattern (`MyEventCardDelegate`) to easily manage click actions on the card. The `performClick` method is overridden to call the delegate.
 * **Material Design Compliance**: Built upon `MaterialCardView`, it's styled with a corner radius, stroke, elevation, and shadow colors for a modern look and feel.
-
 
 ## XML Implementation
 
