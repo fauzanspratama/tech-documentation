@@ -6,7 +6,7 @@ The `ModalityLoadingPopUp` is a utility object designed to display a modal loadi
 The dialog consists of a circular progress indicator and a customizable title, clearly communicating that a process is underway.
 
 ### Preview
-![Modality Loading](https://res.cloudinary.com/fauzanspratama/image/upload/c_scale,w_512/v1759304413/Modality_Loading_kvx2qc.gif)
+![Modality Loading](https://res.cloudinary.com/fauzanspratama/image/upload/c_scale,w_480/v1759304413/Modality_Loading_kvx2qc.gif)
 
 ## Key Features
 - **Blocks UI Interaction**: Prevents user interaction with the app while a background task is running.

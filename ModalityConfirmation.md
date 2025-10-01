@@ -8,7 +8,7 @@ The component is built to be straightforward, ensuring a consistent user experie
 ### Preview
 The dialog presents a clean and focused interface for user decisions. It consists of a title, a description, and two horizontally aligned action buttons: a primary confirmation button and a secondary close/cancel button.
 
-![Modality Confirmation | 512](https://res.cloudinary.com/fauzanspratama/image/upload/v1759226972/Modality_Confirmation_jx0hp7.gif)
+![Modality Confirmation](https://res.cloudinary.com/fauzanspratama/image/upload/c_scale,w_480/v1759305056/Modality_Confirmation_jx0hp7.gif)
 
 ## Key Features
 - **Standardized UI**: Enforces a consistent design for all confirmation prompts by using a fixed layout.
