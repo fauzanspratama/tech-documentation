@@ -34,7 +34,7 @@ ModalityConfirmationPopUp.show(
     isDismissible = false, // Prevent accidental dismissal
     onConfirm = {
         // Handle confirmation
-        deleteEvent()
+        confirmEventInvitatiton()
     },
     onClose = {
         // Handle cancellation
@@ -88,12 +88,12 @@ class MyFragment : Fragment(), EventModalityConfirmationDelegate {
 
     override fun onConfirmClick(modality: EventModalityConfirmation) {
         // Handle confirmation
-        proceedWithSubscription()
+        positiveAction()
     }
 
     override fun onCloseClick(modality: EventModalityConfirmation) {
         // Handle close
-        navigateBack()
+        negativeAction()
     }
 }
 ```
