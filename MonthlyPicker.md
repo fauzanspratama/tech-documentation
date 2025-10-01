@@ -1,7 +1,7 @@
 # Monthly Picker
 The `MonthlyPicker` is a custom Android view component that functions as a selectable, chip-style button. It is designed specifically for interfaces requiring month selection, such as calendar filters or report configuration screens. Built upon `MaterialCardView`, it offers robust state management and visual feedback for user interactions.
 
-![My Event Card](https://res.cloudinary.com/fauzanspratama/image/upload/v1759223877/Monthly_Picker_vzp76f.png)
+![My Event Card](https://res.cloudinary.com/fauzanspratama/image/upload/v1759299591/Monthly_Picker_vzp76f.png)
 
 ### Anatomy
 The component consists of two primary elements:

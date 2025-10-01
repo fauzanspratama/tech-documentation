@@ -6,7 +6,7 @@ Built on `MaterialCardView`, it is styled as a modern, pill-shaped chip with a t
 ## Visual Anatomy
 The component is composed of several key elements laid out horizontally.
 
-![Dropdown Filter Horizontal](https://res.cloudinary.com/fauzanspratama/image/upload/v1759227687/Dropdown_Filter_Horizontal_bmyhjt.png)
+![Dropdown Filter Horizontal](https://res.cloudinary.com/fauzanspratama/image/upload/v1759299514/Dropdown_Filter_Horizontal_bmyhjt.png)
 
 | Element         | View ID              | Description                                                                                                                         |
 | :-------------- | :------------------- | :---------------------------------------------------------------------------------------------------------------------------------- |
