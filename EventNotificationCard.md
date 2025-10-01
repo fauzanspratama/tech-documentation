@@ -18,7 +18,7 @@ The component is a self-contained card with a clean layout, suitable for display
 ## XML Implementation
 The `EventNotificationCard` is designed to be used directly within your Kotlin code or XML layouts. Add the component to your layout file and configure its initial appearance using the available custom attributes.
 
-#### Attributes
+### Attributes
 These attributes can be set on the `EventNotificationCard` in your XML layout.
 
 | Attribute                   | Format   | Description                                                                                                                                |
@@ -29,7 +29,7 @@ These attributes can be set on the `EventNotificationCard` in your XML layout.
 | `notificationButtonVisible` | `String` | Determines if the action button is visible (`true`) or hidden (`false`). Defaults to `true`.                                               |
 | `notificationEventType`     | `String` | Sets the event type. Accepts "General Event", "People Development", or "Employee Benefit" (case-insensitive). Defaults to `GENERAL_EVENT`. |
 
-#### Example Usage
+### Example Usage
 ```XML
 <com.edts.components.notification.EventNotificationCard
     android:id="@+id/event_card"
@@ -47,7 +47,7 @@ These attributes can be set on the `EventNotificationCard` in your XML layout.
 ## Programmatically Implementation
 You can also access and modify the card's properties programmatically in your Fragment or Activity.
 
-#### Component Properties
+### Component Properties
 | Property          | Type                             | Description                                                                                                                                |
 | :---------------- | :------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------- |
 | `title`           | `String`                         | Sets the main title of the notification.                                                                                                   |
@@ -57,7 +57,7 @@ You can also access and modify the card's properties programmatically in your Fr
 | `eventType`       | `EventType`                      | Sets the event type. Accepts "General Event", "People Development", or "Employee Benefit" (case-insensitive). Defaults to `GENERAL_EVENT`. |
 | `delegate`        | `EventNotificationCardDelegate?` |                                                                                                                                            |
 
-#### Example Usage
+### Example Usage
 ```Kotlin
 // In your Fragment or Activity
 val eventCard = binding.eventCard
@@ -70,7 +70,7 @@ eventCard.isButtonVisible = true
 eventCard.eventType = EventNotificationCard.EventType.PEOPLE_DEVELOPMENT
 ```
 
-#### Handing Clicks
+### Handing Clicks
 To respond to user interactions, your Fragment or Activity must implement the `EventNotificationCardDelegate` interface and set itself as the delegate for the card instance.
 
 ```Kotlin
