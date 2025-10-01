@@ -3,6 +3,7 @@ The `EventNotificationCard` is a dedicated UI component designed to notify an em
 
 ## Component Preview
 The component is a self-contained card with a clean layout, suitable for display in lists or feeds.
+
 ![Event Notification Card](https://res.cloudinary.com/fauzanspratama/image/upload/v1759290714/Event_Notification_Card_pscvuc.png)
 
 ## Key Features
