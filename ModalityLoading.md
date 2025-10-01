@@ -159,9 +159,19 @@ The component implements Material Design with:
 
 ### Customization
 ```xml
-<style name="Theme.App.Dialog.Confirmation" parent="Theme.Material3.DayNight.Dialog">
-    <item name="colorPrimary">@color/your_brand_color</item>
-    <item name="indicatorColor">@color/your_progress_color</item>
+<!-- Modality Dialog -->  
+<style name="Theme.App.Dialog.Confirmation" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">  
+    <item name="alertDialogStyle">@style/Style.App.Dialog.Confirmation</item>  
+</style>  
+  
+<style name="Style.App.Dialog.Confirmation" parent="MaterialAlertDialog.MaterialComponents">  
+    <item name="backgroundTint">?attr/colorBackgroundPrimary</item>  
+    <item name="shapeAppearance">@style/ShapeAppearance.App.Dialog.Custom</item>  
+</style>  
+  
+<style name="ShapeAppearance.App.Dialog.Custom" parent="ShapeAppearance.MaterialComponents.MediumComponent">  
+    <item name="cornerFamily">rounded</item>  
+    <item name="cornerSize">16dp</item>  
 </style>
 ```
 

@@ -155,6 +155,25 @@ The component implements Material Design with:
 - **Shadow**: Dynamic shadow colors for API 28+
 - **Theme Integration**: Uses theme attributes for consistent theming
 
+### Customization
+```xml
+<!-- Modality Dialog -->  
+<style name="Theme.App.Dialog.Confirmation" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">  
+    <item name="alertDialogStyle">@style/Style.App.Dialog.Confirmation</item>  
+</style>  
+  
+<style name="Style.App.Dialog.Confirmation" parent="MaterialAlertDialog.MaterialComponents">  
+    <item name="backgroundTint">?attr/colorBackgroundPrimary</item>  
+    <item name="shapeAppearance">@style/ShapeAppearance.App.Dialog.Custom</item>  
+</style>  
+  
+<style name="ShapeAppearance.App.Dialog.Custom" parent="ShapeAppearance.MaterialComponents.MediumComponent">  
+    <item name="cornerFamily">rounded</item>  
+    <item name="cornerSize">16dp</item>  
+</style>
+```
+
+
 ---
 
 >[!Note]
