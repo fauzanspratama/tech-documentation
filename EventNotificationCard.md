@@ -57,7 +57,7 @@ You can also access and modify the card's properties programmatically in your Fr
 | `eventType`       | `EventType`                      | Sets the event type. Accepts "General Event", "People Development", or "Employee Benefit" (case-insensitive). Defaults to `GENERAL_EVENT`. |
 | `delegate`        | `EventNotificationCardDelegate?` |                                                                                                                                            |
 
-### Example Usage
+#### Example Usage
 ```Kotlin
 // In your Fragment or Activity
 val eventCard = binding.eventCard
@@ -70,7 +70,7 @@ eventCard.isButtonVisible = true
 eventCard.eventType = EventNotificationCard.EventType.PEOPLE_DEVELOPMENT
 ```
 
-### Handing Clicks
+#### Handing Clicks
 To respond to user interactions, your Fragment or Activity must implement the `EventNotificationCardDelegate` interface and set itself as the delegate for the card instance.
 
 ```Kotlin
