@@ -1,6 +1,6 @@
 # Event Notification Card
 
-A customizable notification card component for displaying event invitations with interactive actions and visual event type indicators.
+The `EventNotificationCard` is a dedicated UI component designed to notify an employee about an invitation to an event. It presents information in a structured and easily scannable format, ensuring the user can quickly understand the notification's context. The card consists of several key elements: an icon, an event type label, a title, a detailed description, and an optional call-to-action button.
 
 ## Visual Anatomy
 The component is a self-contained card with a clean layout, suitable for display in lists or feeds.
