@@ -2,6 +2,8 @@
 
 `LeaveQuotaCard` is a custom Android view component that extends `MaterialCardView` to display employee leave quota information in a clean, organized card format within the EDTS Desklab App. It provides a comprehensive overview of leave balances, usage, and expiration dates with professional English text formatting, making it ideal for HR management and employee self-service features in corporate environments.
 
+![Leave Quota Card](https://res.cloudinary.com/fauzanspratama/image/upload/v1760418138/Leave_Quota_Card_musmcd.png)
+
 ## Visual Anatomy
 
 The component presents leave information in a structured layout with clear typography hierarchy:
