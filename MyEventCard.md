@@ -1,6 +1,6 @@
 # My Event Card
-
 `MyEventCard` is a custom Android view component that extends `MaterialCardView`. It is designed to provide a standardized and reusable layout for displaying event information in a clear and concise card format. The component encapsulates the structure for showing an event's date, type, title, time, and a status badge, making it easy to populate event lists within an application.
+
 
 ## Visual Anatomy
 
@@ -22,6 +22,7 @@
 - **Interactive Design**: Clickable card with delegate pattern for event handling
 - **Flexible Content**: Dynamic text configuration for all elements
 - **Material Design**: Card-based layout with proper elevation and shadows
+
 
 ## XML Implementation
 
@@ -55,6 +56,7 @@
 
 
 > **Note**: Badge properties (`badgeText`, `badgeType`, `badgeSize`, `myEventBadgeVisible`) are declared in the styleable attributes but must be set programmatically using the `setBadgeData()` method.
+
 
 ## Kotlin Implementation
 
