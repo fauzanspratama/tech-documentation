@@ -54,7 +54,7 @@
 | `myEventBadgeVisible` | `boolean` | Show/hide badge                                                                                                |
 
 
-> **Note**: Badge properties (`badgeText`, `badgeType`, `badgeSize`, `myEventBadgeVisible`) are declared in the styleable attributes but must be set programmatically using the `setBadgeData()` method.
+> **Note**: Badge properties (`badgeText`, `badgeType`, `badgeSize`, `myEventBadgeVisible`) are declared in the style able attributes but must be set programmatically using the `setBadgeData()` method.
 
 ## Kotlin Implementation
 
@@ -156,7 +156,7 @@ val myEvent = MyEvent(
 | :-------- | :-------------- | :-------------------------------- |
 | `OFFLINE` | `Offline Event` | In-person physical event          |
 | `ONLINE`  | `Online Event`  | Virtual/remote event              |
-| `HYBRID`  | `Hybrid Event`  | Combination of offline and online |
+| `HYBRID`  | `Hybrid Event`  | Combination of offline and online 
 
 ## Do's and Don'ts
 
