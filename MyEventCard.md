@@ -14,6 +14,7 @@
 | **Event Time** | Time range for the event |
 | **Event Badge** | Status indicator (Registered, Completed, etc.) |
 
+
 ## Key Features
 - **Integrated Calendar**: Built-in calendar card for consistent date display
 - **Status Badging**: Configurable badges for event registration and attendance status
@@ -74,6 +75,7 @@ myEventCard.apply {
 }
 ```
 
+
 ### Badge Configuration
 ```kotlin
 myEventCard.setBadgeData(
@@ -84,6 +86,7 @@ myEventCard.setBadgeData(
 )
 ```
 
+
 ### Event Handling
 ```kotlin
 myEventCard.myEventCardDelegate = object : MyEventCardDelegate {
@@ -93,6 +96,7 @@ myEventCard.myEventCardDelegate = object : MyEventCardDelegate {
     }
 }
 ```
+
 
 ### RecyclerView Adapter Implementation
 ```kotlin
@@ -125,6 +129,7 @@ class MyEventAdapter(private val onEventClick: (MyEvent) -> Unit) :
 }
 ```
 
+
 ### Data Model Integration
 ```kotlin
 // Creating MyEvent data
@@ -144,24 +149,25 @@ val myEvent = MyEvent(
 )
 ```
 
-## Event Status Types
 
+## Event Status Types
 | Status        | Badge Text    | Description                      |
 | :------------ | :------------ | :------------------------------- |
 | `LIVE`        | `Berlangsung` | Event is currently ongoing       |
 | `REGISTERED`  | `Terdaftar`   | User is registered for the event |
 | `ATTENDED`    | `Hadir`       | User attended the event          |
 | `NOTATTENDED` | `Tidak Hadir` | User did not attend the event    |
-### Event Location Types
 
+
+### Event Location Types
 | Location  | Display Text    | Description                       |
 | :-------- | :-------------- | :-------------------------------- |
 | `OFFLINE` | `Offline Event` | In-person physical event          |
 | `ONLINE`  | `Online Event`  | Virtual/remote event              |
 | `HYBRID`  | `Hybrid Event`  | Combination of offline and online |
 
-## Do's and Don'ts
 
+## Do's and Don'ts
 ### ✅ Do's
 - Use for displaying user's registered/attended events in "My Events" sections
 - Provide concise but descriptive event titles
@@ -180,8 +186,8 @@ val myEvent = MyEvent(
 - Use inconsistent date formatting
 - Mix up event status types with location types
 
-## Material Design Styling
 
+## Material Design Styling
 The component implements Material Design with:
 
 - **Card Layout**:
@@ -204,6 +210,7 @@ The component implements Material Design with:
   - Primary text: `colorForegroundPrimary`
   - Secondary text: `colorForegroundTertiary`
   - Proper background colors
+
 
 ### Custom Styling
 ```xml
